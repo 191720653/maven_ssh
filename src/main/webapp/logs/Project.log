@@ -1,0 +1,1083 @@
+Root WebApplicationContext: initialization started
+Initializing new StandardServletEnvironment
+Adding [servletConfigInitParams] PropertySource with lowest search precedence
+Adding [servletContextInitParams] PropertySource with lowest search precedence
+Adding [jndiProperties] PropertySource with lowest search precedence
+Adding [systemProperties] PropertySource with lowest search precedence
+Adding [systemEnvironment] PropertySource with lowest search precedence
+Initialized StandardServletEnvironment with PropertySources [servletConfigInitParams,servletContextInitParams,jndiProperties,systemProperties,systemEnvironment]
+Refreshing Root WebApplicationContext: startup date [Thu Aug 27 09:57:24 CST 2015]; root of context hierarchy
+Replacing [servletContextInitParams] PropertySource with [servletContextInitParams]
+Initializing new StandardEnvironment
+Adding [systemProperties] PropertySource with lowest search precedence
+Adding [systemEnvironment] PropertySource with lowest search precedence
+Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+Initializing new StandardEnvironment
+Adding [systemProperties] PropertySource with lowest search precedence
+Adding [systemEnvironment] PropertySource with lowest search precedence
+Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+Loading XML bean definitions from class path resource [applicationContext.xml]
+Using JAXP provider [com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderFactoryImpl]
+Loading schema mappings from [META-INF/spring.schemas]
+Loaded schema mappings: {http://www.springframework.org/schema/util/spring-util.xsd=org/springframework/beans/factory/xml/spring-util-3.1.xsd, http://www.springframework.org/schema/beans/spring-beans-3.1.xsd=org/springframework/beans/factory/xml/spring-beans-3.1.xsd, http://www.springframework.org/schema/task/spring-task.xsd=org/springframework/scheduling/config/spring-task-3.1.xsd, http://www.springframework.org/schema/cache/spring-cache.xsd=org/springframework/cache/config/spring-cache-3.1.xsd, http://www.springframework.org/schema/aop/spring-aop-3.0.xsd=org/springframework/aop/config/spring-aop-3.0.xsd, http://www.springframework.org/schema/task/spring-task-3.1.xsd=org/springframework/scheduling/config/spring-task-3.1.xsd, http://www.springframework.org/schema/aop/spring-aop-2.0.xsd=org/springframework/aop/config/spring-aop-2.0.xsd, http://www.springframework.org/schema/tool/spring-tool-2.5.xsd=org/springframework/beans/factory/xml/spring-tool-2.5.xsd, http://www.springframework.org/schema/beans/spring-beans.xsd=org/springframework/beans/factory/xml/spring-beans-3.1.xsd, http://www.springframework.org/schema/jee/spring-jee-2.5.xsd=org/springframework/ejb/config/spring-jee-2.5.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc-3.1.xsd=org/springframework/jdbc/config/spring-jdbc-3.1.xsd, http://www.springframework.org/schema/tool/spring-tool-3.1.xsd=org/springframework/beans/factory/xml/spring-tool-3.1.xsd, http://www.springframework.org/schema/aop/spring-aop.xsd=org/springframework/aop/config/spring-aop-3.1.xsd, http://www.springframework.org/schema/jee/spring-jee-3.1.xsd=org/springframework/ejb/config/spring-jee-3.1.xsd, http://www.springframework.org/schema/beans/spring-beans-2.0.xsd=org/springframework/beans/factory/xml/spring-beans-2.0.xsd, http://www.springframework.org/schema/beans/spring-beans-3.0.xsd=org/springframework/beans/factory/xml/spring-beans-3.0.xsd, http://www.springframework.org/schema/task/spring-task-3.0.xsd=org/springframework/scheduling/config/spring-task-3.0.xsd, http://www.springframework.org/schema/tx/spring-tx-2.5.xsd=org/springframework/transaction/config/spring-tx-2.5.xsd, http://www.springframework.org/schema/context/spring-context-2.5.xsd=org/springframework/context/config/spring-context-2.5.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc-3.0.xsd=org/springframework/jdbc/config/spring-jdbc-3.0.xsd, http://www.springframework.org/schema/tool/spring-tool-3.0.xsd=org/springframework/beans/factory/xml/spring-tool-3.0.xsd, http://www.springframework.org/schema/tx/spring-tx.xsd=org/springframework/transaction/config/spring-tx-3.1.xsd, http://www.springframework.org/schema/tool/spring-tool-2.0.xsd=org/springframework/beans/factory/xml/spring-tool-2.0.xsd, http://www.springframework.org/schema/util/spring-util-2.5.xsd=org/springframework/beans/factory/xml/spring-util-2.5.xsd, http://www.springframework.org/schema/lang/spring-lang.xsd=org/springframework/scripting/config/spring-lang-3.1.xsd, http://www.springframework.org/schema/lang/spring-lang-2.5.xsd=org/springframework/scripting/config/spring-lang-2.5.xsd, http://www.springframework.org/schema/jee/spring-jee-3.0.xsd=org/springframework/ejb/config/spring-jee-3.0.xsd, http://www.springframework.org/schema/tx/spring-tx-3.1.xsd=org/springframework/transaction/config/spring-tx-3.1.xsd, http://www.springframework.org/schema/jee/spring-jee-2.0.xsd=org/springframework/ejb/config/spring-jee-2.0.xsd, http://www.springframework.org/schema/context/spring-context-3.1.xsd=org/springframework/context/config/spring-context-3.1.xsd, http://www.springframework.org/schema/util/spring-util-3.1.xsd=org/springframework/beans/factory/xml/spring-util-3.1.xsd, http://www.springframework.org/schema/lang/spring-lang-3.1.xsd=org/springframework/scripting/config/spring-lang-3.1.xsd, http://www.springframework.org/schema/cache/spring-cache-3.1.xsd=org/springframework/cache/config/spring-cache-3.1.xsd, http://www.springframework.org/schema/context/spring-context.xsd=org/springframework/context/config/spring-context-3.1.xsd, http://www.springframework.org/schema/jee/spring-jee.xsd=org/springframework/ejb/config/spring-jee-3.1.xsd, http://www.springframework.org/schema/aop/spring-aop-2.5.xsd=org/springframework/aop/config/spring-aop-2.5.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc.xsd=org/springframework/jdbc/config/spring-jdbc-3.1.xsd, http://www.springframework.org/schema/tx/spring-tx-2.0.xsd=org/springframework/transaction/config/spring-tx-2.0.xsd, http://www.springframework.org/schema/aop/spring-aop-3.1.xsd=org/springframework/aop/config/spring-aop-3.1.xsd, http://www.springframework.org/schema/tx/spring-tx-3.0.xsd=org/springframework/transaction/config/spring-tx-3.0.xsd, http://www.springframework.org/schema/context/spring-context-3.0.xsd=org/springframework/context/config/spring-context-3.0.xsd, http://www.springframework.org/schema/tool/spring-tool.xsd=org/springframework/beans/factory/xml/spring-tool-3.1.xsd, http://www.springframework.org/schema/util/spring-util-3.0.xsd=org/springframework/beans/factory/xml/spring-util-3.0.xsd, http://www.springframework.org/schema/lang/spring-lang-3.0.xsd=org/springframework/scripting/config/spring-lang-3.0.xsd, http://www.springframework.org/schema/util/spring-util-2.0.xsd=org/springframework/beans/factory/xml/spring-util-2.0.xsd, http://www.springframework.org/schema/lang/spring-lang-2.0.xsd=org/springframework/scripting/config/spring-lang-2.0.xsd, http://www.springframework.org/schema/beans/spring-beans-2.5.xsd=org/springframework/beans/factory/xml/spring-beans-2.5.xsd}
+Found XML schema [http://www.springframework.org/schema/beans/spring-beans.xsd] in classpath: org/springframework/beans/factory/xml/spring-beans-3.1.xsd
+Found XML schema [http://www.springframework.org/schema/tx/spring-tx.xsd] in classpath: org/springframework/transaction/config/spring-tx-3.1.xsd
+Found XML schema [http://www.springframework.org/schema/tool/spring-tool-3.1.xsd] in classpath: org/springframework/beans/factory/xml/spring-tool-3.1.xsd
+Found XML schema [http://www.springframework.org/schema/aop/spring-aop.xsd] in classpath: org/springframework/aop/config/spring-aop-3.1.xsd
+Loading bean definitions
+Loaded NamespaceHandler mappings: {http://www.springframework.org/schema/p=org.springframework.beans.factory.xml.SimplePropertyNamespaceHandler, http://www.springframework.org/schema/util=org.springframework.beans.factory.xml.UtilNamespaceHandler, http://www.springframework.org/schema/jee=org.springframework.ejb.config.JeeNamespaceHandler, http://www.springframework.org/schema/aop=org.springframework.aop.config.AopNamespaceHandler, http://www.springframework.org/schema/jdbc=org.springframework.jdbc.config.JdbcNamespaceHandler, http://www.springframework.org/schema/cache=org.springframework.cache.config.CacheNamespaceHandler, http://www.springframework.org/schema/c=org.springframework.beans.factory.xml.SimpleConstructorNamespaceHandler, http://www.springframework.org/schema/tx=org.springframework.transaction.config.TxNamespaceHandler, http://www.springframework.org/schema/task=org.springframework.scheduling.config.TaskNamespaceHandler, http://www.springframework.org/schema/lang=org.springframework.scripting.config.LangNamespaceHandler, http://www.springframework.org/schema/context=org.springframework.context.config.ContextNamespaceHandler}
+Loaded 17 bean definitions from location pattern [classpath:applicationContext.xml]
+Bean factory for Root WebApplicationContext: org.springframework.beans.factory.support.DefaultListableBeanFactory@7cf4e6ac: defining beans [loginController,addUserAction,UserDao,UserService,log,dataSource,sessionFactory,txManager,org.springframework.aop.config.internalAutoProxyCreator,org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0,org.springframework.transaction.interceptor.TransactionInterceptor#0,org.springframework.transaction.config.internalTransactionAdvisor,txAdvice,org.springframework.aop.aspectj.AspectJPointcutAdvisor#0,org.springframework.aop.aspectj.AspectJPointcutAdvisor#1,org.springframework.aop.aspectj.AspectJPointcutAdvisor#2,logService]; root of factory hierarchy
+Creating shared instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator'
+Creating instance of bean 'org.springframework.aop.config.internalAutoProxyCreator'
+Eagerly caching bean 'org.springframework.aop.config.internalAutoProxyCreator' to allow for resolving potential circular references
+Finished creating instance of bean 'org.springframework.aop.config.internalAutoProxyCreator'
+Unable to locate MessageSource with name 'messageSource': using default [org.springframework.context.support.DelegatingMessageSource@61563c31]
+Unable to locate ApplicationEventMulticaster with name 'applicationEventMulticaster': using default [org.springframework.context.event.SimpleApplicationEventMulticaster@a03db1e]
+Unable to locate ThemeSource with name 'themeSource': using default [org.springframework.ui.context.support.ResourceBundleThemeSource@235ff851]
+Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@7cf4e6ac: defining beans [loginController,addUserAction,UserDao,UserService,log,dataSource,sessionFactory,txManager,org.springframework.aop.config.internalAutoProxyCreator,org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0,org.springframework.transaction.interceptor.TransactionInterceptor#0,org.springframework.transaction.config.internalTransactionAdvisor,txAdvice,org.springframework.aop.aspectj.AspectJPointcutAdvisor#0,org.springframework.aop.aspectj.AspectJPointcutAdvisor#1,org.springframework.aop.aspectj.AspectJPointcutAdvisor#2,logService]; root of factory hierarchy
+Creating shared instance of singleton bean 'loginController'
+Creating instance of bean 'loginController'
+Creating shared instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+Creating instance of bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+Eagerly caching bean 'org.springframework.transaction.config.internalTransactionAdvisor' to allow for resolving potential circular references
+Creating shared instance of singleton bean 'org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0'
+Creating instance of bean 'org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0'
+Creating shared instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#0'
+Creating instance of bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#0'
+Creating instance of bean '(inner bean)'
+Creating instance of bean '(inner bean)'
+Finished creating instance of bean '(inner bean)'
+Creating instance of bean 'logService'
+Finished creating instance of bean 'logService'
+Creating instance of bean '(inner bean)#1'
+Finished creating instance of bean '(inner bean)#1'
+Finished creating instance of bean '(inner bean)'
+Eagerly caching bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#0' to allow for resolving potential circular references
+Finished creating instance of bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#0'
+Creating shared instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#1'
+Creating instance of bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#1'
+Creating instance of bean '(inner bean)#2'
+Creating instance of bean '(inner bean)#2'
+Finished creating instance of bean '(inner bean)#2'
+Creating instance of bean 'logService'
+Finished creating instance of bean 'logService'
+Creating instance of bean '(inner bean)#3'
+Finished creating instance of bean '(inner bean)#3'
+Finished creating instance of bean '(inner bean)#2'
+Eagerly caching bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#1' to allow for resolving potential circular references
+Finished creating instance of bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#1'
+Creating shared instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#2'
+Creating instance of bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#2'
+Creating instance of bean '(inner bean)#4'
+Creating instance of bean '(inner bean)#4'
+Finished creating instance of bean '(inner bean)#4'
+Creating instance of bean 'logService'
+Finished creating instance of bean 'logService'
+Creating instance of bean '(inner bean)#5'
+Finished creating instance of bean '(inner bean)#5'
+Finished creating instance of bean '(inner bean)#4'
+Eagerly caching bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#2' to allow for resolving potential circular references
+Finished creating instance of bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#2'
+Eagerly caching bean 'org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0' to allow for resolving potential circular references
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#0'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#1'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#2'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#0'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#1'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#2'
+Finished creating instance of bean 'org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0'
+Finished creating instance of bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#0'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#1'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#2'
+Eagerly caching bean 'loginController' to allow for resolving potential circular references
+Creating shared instance of singleton bean 'UserService'
+Creating instance of bean 'UserService'
+Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#0'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#1'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#2'
+Eagerly caching bean 'UserService' to allow for resolving potential circular references
+Creating shared instance of singleton bean 'UserDao'
+Creating instance of bean 'UserDao'
+Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#0'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#1'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#2'
+Eagerly caching bean 'UserDao' to allow for resolving potential circular references
+Creating shared instance of singleton bean 'sessionFactory'
+Creating instance of bean 'sessionFactory'
+Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#0'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#1'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#2'
+Eagerly caching bean 'sessionFactory' to allow for resolving potential circular references
+Creating shared instance of singleton bean 'dataSource'
+Creating instance of bean 'dataSource'
+Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#0'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#1'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#2'
+Eagerly caching bean 'dataSource' to allow for resolving potential circular references
+Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#0'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#1'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#2'
+Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#0'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#1'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#2'
+Finished creating instance of bean 'dataSource'
+Initializing new StandardEnvironment
+Adding [systemProperties] PropertySource with lowest search precedence
+Adding [systemEnvironment] PropertySource with lowest search precedence
+Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+Initializing new StandardEnvironment
+Adding [systemProperties] PropertySource with lowest search precedence
+Adding [systemEnvironment] PropertySource with lowest search precedence
+Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+Initializing new StandardEnvironment
+Adding [systemProperties] PropertySource with lowest search precedence
+Adding [systemEnvironment] PropertySource with lowest search precedence
+Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+Initializing new StandardEnvironment
+Adding [systemProperties] PropertySource with lowest search precedence
+Adding [systemEnvironment] PropertySource with lowest search precedence
+Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+Initializing new StandardEnvironment
+Adding [systemProperties] PropertySource with lowest search precedence
+Adding [systemEnvironment] PropertySource with lowest search precedence
+Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+Invoking afterPropertiesSet() on bean with name 'sessionFactory'
+Logging Provider: org.jboss.logging.Log4jLoggerProvider
+Adding type registration boolean -> org.hibernate.type.BooleanType@382c1a5f
+Adding type registration boolean -> org.hibernate.type.BooleanType@382c1a5f
+Adding type registration java.lang.Boolean -> org.hibernate.type.BooleanType@382c1a5f
+Adding type registration numeric_boolean -> org.hibernate.type.NumericBooleanType@6b2977f9
+Adding type registration true_false -> org.hibernate.type.TrueFalseType@3f2660a6
+Adding type registration yes_no -> org.hibernate.type.YesNoType@39fea8de
+Adding type registration byte -> org.hibernate.type.ByteType@4c8b1b5b
+Adding type registration byte -> org.hibernate.type.ByteType@4c8b1b5b
+Adding type registration java.lang.Byte -> org.hibernate.type.ByteType@4c8b1b5b
+Adding type registration character -> org.hibernate.type.CharacterType@7b390e5e
+Adding type registration char -> org.hibernate.type.CharacterType@7b390e5e
+Adding type registration java.lang.Character -> org.hibernate.type.CharacterType@7b390e5e
+Adding type registration short -> org.hibernate.type.ShortType@2e620d0a
+Adding type registration short -> org.hibernate.type.ShortType@2e620d0a
+Adding type registration java.lang.Short -> org.hibernate.type.ShortType@2e620d0a
+Adding type registration integer -> org.hibernate.type.IntegerType@2dad0e5c
+Adding type registration int -> org.hibernate.type.IntegerType@2dad0e5c
+Adding type registration java.lang.Integer -> org.hibernate.type.IntegerType@2dad0e5c
+Adding type registration long -> org.hibernate.type.LongType@4caabc8c
+Adding type registration long -> org.hibernate.type.LongType@4caabc8c
+Adding type registration java.lang.Long -> org.hibernate.type.LongType@4caabc8c
+Adding type registration float -> org.hibernate.type.FloatType@190f1916
+Adding type registration float -> org.hibernate.type.FloatType@190f1916
+Adding type registration java.lang.Float -> org.hibernate.type.FloatType@190f1916
+Adding type registration double -> org.hibernate.type.DoubleType@5b4b46cc
+Adding type registration double -> org.hibernate.type.DoubleType@5b4b46cc
+Adding type registration java.lang.Double -> org.hibernate.type.DoubleType@5b4b46cc
+Adding type registration big_decimal -> org.hibernate.type.BigDecimalType@1c3f5ae2
+Adding type registration java.math.BigDecimal -> org.hibernate.type.BigDecimalType@1c3f5ae2
+Adding type registration big_integer -> org.hibernate.type.BigIntegerType@1372b98c
+Adding type registration java.math.BigInteger -> org.hibernate.type.BigIntegerType@1372b98c
+Adding type registration string -> org.hibernate.type.StringType@2150c9ed
+Adding type registration java.lang.String -> org.hibernate.type.StringType@2150c9ed
+Adding type registration url -> org.hibernate.type.UrlType@7f303db9
+Adding type registration java.net.URL -> org.hibernate.type.UrlType@7f303db9
+Adding type registration date -> org.hibernate.type.DateType@2b07e1ca
+Adding type registration java.sql.Date -> org.hibernate.type.DateType@2b07e1ca
+Adding type registration time -> org.hibernate.type.TimeType@6ee503c9
+Adding type registration java.sql.Time -> org.hibernate.type.TimeType@6ee503c9
+Adding type registration timestamp -> org.hibernate.type.TimestampType@1177bb2
+Adding type registration java.sql.Timestamp -> org.hibernate.type.TimestampType@1177bb2
+Adding type registration java.util.Date -> org.hibernate.type.TimestampType@1177bb2
+Adding type registration dbtimestamp -> org.hibernate.type.DbTimestampType@4f8ee7ad
+Adding type registration calendar -> org.hibernate.type.CalendarType@12d391f8
+Adding type registration java.util.Calendar -> org.hibernate.type.CalendarType@12d391f8
+Adding type registration java.util.GregorianCalendar -> org.hibernate.type.CalendarType@12d391f8
+Adding type registration calendar_date -> org.hibernate.type.CalendarDateType@6e8811ca
+Adding type registration locale -> org.hibernate.type.LocaleType@4727cfaa
+Adding type registration java.util.Locale -> org.hibernate.type.LocaleType@4727cfaa
+Adding type registration currency -> org.hibernate.type.CurrencyType@15a20a12
+Adding type registration java.util.Currency -> org.hibernate.type.CurrencyType@15a20a12
+Adding type registration timezone -> org.hibernate.type.TimeZoneType@41772310
+Adding type registration java.util.TimeZone -> org.hibernate.type.TimeZoneType@41772310
+Adding type registration class -> org.hibernate.type.ClassType@27107ade
+Adding type registration java.lang.Class -> org.hibernate.type.ClassType@27107ade
+Adding type registration uuid-binary -> org.hibernate.type.UUIDBinaryType@5ae0f914
+Adding type registration java.util.UUID -> org.hibernate.type.UUIDBinaryType@5ae0f914
+Adding type registration uuid-char -> org.hibernate.type.UUIDCharType@51a5bec1
+Adding type registration pg-uuid -> org.hibernate.type.PostgresUUIDType@480383c5
+Adding type registration binary -> org.hibernate.type.BinaryType@73ac4b64
+Adding type registration byte[] -> org.hibernate.type.BinaryType@73ac4b64
+Adding type registration [B -> org.hibernate.type.BinaryType@73ac4b64
+Adding type registration wrapper-binary -> org.hibernate.type.WrapperBinaryType@142cbba
+Adding type registration Byte[] -> org.hibernate.type.WrapperBinaryType@142cbba
+Adding type registration [Ljava.lang.Byte; -> org.hibernate.type.WrapperBinaryType@142cbba
+Adding type registration image -> org.hibernate.type.ImageType@669be5f8
+Adding type registration characters -> org.hibernate.type.CharArrayType@73d39053
+Adding type registration char[] -> org.hibernate.type.CharArrayType@73d39053
+Adding type registration [C -> org.hibernate.type.CharArrayType@73d39053
+Adding type registration wrapper-characters -> org.hibernate.type.CharacterArrayType@1288fe70
+Adding type registration [Ljava.lang.Character; -> org.hibernate.type.CharacterArrayType@1288fe70
+Adding type registration Character[] -> org.hibernate.type.CharacterArrayType@1288fe70
+Adding type registration text -> org.hibernate.type.TextType@58416461
+Adding type registration blob -> org.hibernate.type.BlobType@694a1247
+Adding type registration java.sql.Blob -> org.hibernate.type.BlobType@694a1247
+Adding type registration materialized_blob -> org.hibernate.type.MaterializedBlobType@7e5d4811
+Adding type registration clob -> org.hibernate.type.ClobType@243c29c6
+Adding type registration java.sql.Clob -> org.hibernate.type.ClobType@243c29c6
+Adding type registration materialized_clob -> org.hibernate.type.MaterializedClobType@129dc9b8
+Adding type registration serializable -> org.hibernate.type.SerializableType@a3d45c
+Adding type registration object -> org.hibernate.type.ObjectType@5c3e28e1
+Adding type registration java.lang.Object -> org.hibernate.type.ObjectType@5c3e28e1
+Adding type registration imm_date -> org.hibernate.type.AdaptedImmutableType@54b1cc6c
+Adding type registration imm_time -> org.hibernate.type.AdaptedImmutableType@64e3f1e4
+Adding type registration imm_timestamp -> org.hibernate.type.AdaptedImmutableType@311de37b
+Adding type registration imm_dbtimestamp -> org.hibernate.type.AdaptedImmutableType@2141b96e
+Adding type registration imm_calendar -> org.hibernate.type.AdaptedImmutableType@61f4f5d0
+Adding type registration imm_calendar_date -> org.hibernate.type.AdaptedImmutableType@19365cee
+Adding type registration imm_binary -> org.hibernate.type.AdaptedImmutableType@400f1a30
+Adding type registration imm_serializable -> org.hibernate.type.AdaptedImmutableType@1f80662b
+HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+HHH000412: Hibernate Core {4.1.9.Final}
+HHH000206: hibernate.properties not found
+HHH000021: Bytecode provider name : javassist
+Registering IdentifierGenerator strategy [uuid2] -> [org.hibernate.id.UUIDGenerator]
+Registering IdentifierGenerator strategy [guid] -> [org.hibernate.id.GUIDGenerator]
+Registering IdentifierGenerator strategy [uuid] -> [org.hibernate.id.UUIDHexGenerator]
+Registering IdentifierGenerator strategy [uuid.hex] -> [org.hibernate.id.UUIDHexGenerator]
+Registering IdentifierGenerator strategy [hilo] -> [org.hibernate.id.TableHiLoGenerator]
+Registering IdentifierGenerator strategy [assigned] -> [org.hibernate.id.Assigned]
+Registering IdentifierGenerator strategy [identity] -> [org.hibernate.id.IdentityGenerator]
+Registering IdentifierGenerator strategy [select] -> [org.hibernate.id.SelectGenerator]
+Registering IdentifierGenerator strategy [sequence] -> [org.hibernate.id.SequenceGenerator]
+Registering IdentifierGenerator strategy [seqhilo] -> [org.hibernate.id.SequenceHiLoGenerator]
+Registering IdentifierGenerator strategy [increment] -> [org.hibernate.id.IncrementGenerator]
+Registering IdentifierGenerator strategy [foreign] -> [org.hibernate.id.ForeignGenerator]
+Registering IdentifierGenerator strategy [sequence-identity] -> [org.hibernate.id.SequenceIdentityGenerator]
+Registering IdentifierGenerator strategy [enhanced-sequence] -> [org.hibernate.id.enhanced.SequenceStyleGenerator]
+Registering IdentifierGenerator strategy [enhanced-table] -> [org.hibernate.id.enhanced.TableGenerator]
+Trying to resolve system-id [http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd]
+HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+Attempting to resolve on classpath under org/hibernate/
+Located [http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd] in classpath
+Trying to resolve system-id [http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd]
+Recognized hibernate namespace; attempting to resolve on classpath under org/hibernate/
+Located [http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd] in classpath
+Looking for matching resources in directory tree [C:\work\train\maven\maven_ssh\target\classes\com\zehao\entity]
+Searching directory [C:\work\train\maven\maven_ssh\target\classes\com\zehao\entity] for files matching pattern [C:/work/train/maven/maven_ssh/target/classes/com/zehao/entity/**/*.class]
+Resolved location pattern [classpath*:com/zehao/entity/**/*.class] to resources [file [C:\work\train\maven\maven_ssh\target\classes\com\zehao\entity\A.class], file [C:\work\train\maven\maven_ssh\target\classes\com\zehao\entity\Users.class]]
+Adding Integrator [org.hibernate.cfg.beanvalidation.BeanValidationIntegrator].
+Preparing to build session factory with filters : {}
+Processing hbm.xml files
+Mapping class: com.zehao.entity.A -> a
+Mapped property: id -> id
+Mapped property: name -> name
+Mapping class: com.zehao.entity.Users -> users
+Mapped property: id -> id
+Mapped property: name -> name
+Mapped property: password -> password
+Mapped property: address -> address
+Process annotated classes
+Processing fk mappings (*ToOne and JoinedSubclass)
+Processing extends queue
+Processing extends queue
+Processing collection mappings
+Processing native query and ResultSetMapping mappings
+Processing association property references
+Processing foreign key constraints
+Database ->
+       name : MySQL
+    version : 5.6.26
+      major : 5
+      minor : 6
+Driver ->
+       name : MySQL Connector Java
+    version : mysql-connector-java-5.1.36 ( Revision: 4fc1f969f740409a4e03750316df2c0e429f3dc8 )
+      major : 5
+      minor : 1
+JDBC version : 4.0
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+Automatic flush during beforeCompletion(): disabled
+Automatic session close at end of transaction: disabled
+JDBC batch size: 15
+JDBC batch updates for versioned data: disabled
+Scrollable result sets: enabled
+Wrap result sets: disabled
+JDBC3 getGeneratedKeys(): enabled
+multi-tenancy strategy : NONE
+Connection release mode: auto
+HHH000399: Using default transaction strategy (direct JDBC transactions)
+Maximum outer join fetch depth: 2
+Default batch fetch size: 1
+Generate SQL with comments: disabled
+Order SQL updates by primary key: disabled
+Order SQL inserts for batching: disabled
+Query translator: org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory
+HHH000397: Using ASTQueryTranslatorFactory
+Query language substitutions: {}
+JPA-QL strict compliance: disabled
+Second-level cache: enabled
+Query cache: disabled
+Cache region factory : org.hibernate.cache.internal.NoCachingRegionFactory
+org.hibernate.cache.internal.NoCachingRegionFactory did not provide constructor accepting java.util.Properties; attempting no-arg constructor.
+Optimize cache for minimal puts: disabled
+Structured second-level cache entries: disabled
+Statistics: disabled
+Deleted entity synthetic identifier rollback: disabled
+Default entity-mode: pojo
+Named query checking : enabled
+Check Nullability in Core (should be disabled when Bean Validation is on): enabled
+Allow initialization of lazy state outside session : : disabled
+Building session factory
+Session factory constructed with filter configurations : {}
+Instantiating session factory with properties: {java.vendor=Oracle Corporation, sun.java.launcher=SUN_STANDARD, catalina.base=C:\work\train\maven\maven_ssh\target\tomcat, sun.management.compiler=HotSpot 64-Bit Tiered Compilers, catalina.useNaming=true, os.name=Windows 7, sun.boot.class.path=C:\Program Files\Java\jdk1.7.0_79\jre\lib\resources.jar;C:\Program Files\Java\jdk1.7.0_79\jre\lib\rt.jar;C:\Program Files\Java\jdk1.7.0_79\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.7.0_79\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.7.0_79\jre\lib\jce.jar;C:\Program Files\Java\jdk1.7.0_79\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.7.0_79\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.7.0_79\jre\classes, hibernate.current_session_context_class=org.springframework.orm.hibernate4.SpringSessionContext, sun.desktop=windows, java.vm.specification.vendor=Oracle Corporation, java.runtime.version=1.7.0_79-b15, user.name=zehao, shared.loader=, guice.disable.misplaced.annotation.check=true, tomcat.util.buf.StringCache.byte.enabled=true, user.language=zh, java.naming.factory.initial=org.apache.naming.java.javaURLContextFactory, sun.boot.library.path=C:\Program Files\Java\jdk1.7.0_79\jre\bin, classworlds.conf=C:\Program Files\apache-maven-3.3.3\bin\..\bin\m2.conf, webapp.root=C:\work\train\maven\maven_ssh\src\main\webapp\, java.version=1.7.0_79, user.timezone=Asia/Shanghai, sun.arch.data.model=64, java.endorsed.dirs=C:\Program Files\Java\jdk1.7.0_79\jre\lib\endorsed, sun.cpu.isalist=amd64, sun.jnu.encoding=GBK, file.encoding.pkg=sun.io, package.access=sun.,org.apache.catalina.,org.apache.coyote.,org.apache.tomcat.,org.apache.jasper.,sun.beans., file.separator=\, java.specification.name=Java Platform API Specification, java.class.version=51.0, user.country=CN, java.home=C:\Program Files\Java\jdk1.7.0_79\jre, java.vm.info=mixed mode, os.version=6.1, hibernate.connection.datasource=org.apache.commons.dbcp.BasicDataSource@df5b08, path.separator=;, java.vm.version=24.79-b02, user.variant=, java.awt.printerjob=sun.awt.windows.WPrinterJob, sun.io.unicode.encoding=UnicodeLittle, awt.toolkit=sun.awt.windows.WToolkit, package.definition=sun.,java.,org.apache.catalina.,org.apache.coyote.,org.apache.tomcat.,org.apache.jasper., user.script=, java.naming.factory.url.pkgs=org.apache.naming, user.home=C:\Users\zehao, java.specification.vendor=Oracle Corporation, hibernate.hbm2ddl.auto=update, hibernate.classLoader.application=WebappClassLoader
+  context: /maven_ssh
+  delegate: false
+  repositories:
+----------> Parent Classloader:
+ClassRealm[plugin>org.codehaus.mojo:tomcat-maven-plugin:1.1, parent: sun.misc.Launcher$AppClassLoader@401e9c3f]
+, java.library.path=C:\Program Files\Java\jdk1.7.0_79\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Java\jdk1.7.0_79\bin;C:\Program Files\TortoiseSVN\bin;C:\Program Files\mysql-5.6.26-winx64\bin;%MAVEN_HOME%\bin;C:\Program Files\apache-maven-3.3.3\bin;;., java.vendor.url=http://java.oracle.com/, java.vm.vendor=Oracle Corporation, hibernate.dialect=org.hibernate.dialect.MySQL5Dialect, common.loader=C:\work\train\maven\maven_ssh\target\tomcat/lib,C:\work\train\maven\maven_ssh\target\tomcat/lib/*.jar, maven.home=C:\Program Files\apache-maven-3.3.3\bin\.., java.runtime.name=Java(TM) SE Runtime Environment, sun.java.command=org.codehaus.plexus.classworlds.launcher.Launcher tomcat:run, java.class.path=C:\Program Files\apache-maven-3.3.3\bin\..\boot\plexus-classworlds-2.5.2.jar, hibernate.bytecode.use_reflection_optimizer=false, java.vm.specification.name=Java Virtual Machine Specification, java.vm.specification.version=1.7, catalina.home=C:\work\train\maven\maven_ssh\target\tomcat, sun.cpu.endian=little, sun.os.patch.level=Service Pack 1, java.io.tmpdir=C:\Users\zehao\AppData\Local\Temp\, java.vendor.url.bug=http://bugreport.sun.com/bugreport/, maven.multiModuleProjectDirectory=C:\work\train\maven\maven_ssh, server.loader=, os.arch=amd64, java.awt.graphicsenv=sun.awt.Win32GraphicsEnvironment, java.ext.dirs=C:\Program Files\Java\jdk1.7.0_79\jre\lib\ext;C:\windows\Sun\Java\lib\ext, user.dir=C:\work\train\maven\maven_ssh, line.separator=
+, java.vm.name=Java HotSpot(TM) 64-Bit Server VM, file.encoding=GBK, java.specification.version=1.7, hibernate.show_sql=true}
+Setting dialect [org.hibernate.dialect.MySQL5Dialect]
+Setting dialect [org.hibernate.dialect.MySQL5Dialect]
+Static SQL for entity: com.zehao.entity.Users
+ Version select: select id from users where id =?
+ Snapshot select: select users_.id, users_.name as name1_, users_.password as password1_, users_.address as address1_ from users users_ where users_.id=?
+ Insert 0: insert into users (name, password, address, id) values (?, ?, ?, ?)
+ Update 0: update users set name=?, password=?, address=? where id=?
+ Delete 0: delete from users where id=?
+ Identity insert: insert into users (name, password, address) values (?, ?, ?)
+Static SQL for entity: com.zehao.entity.A
+ Version select: select id from a where id =?
+ Snapshot select: select a_.id, a_.name as name0_ from a a_ where a_.id=?
+ Insert 0: insert into a (name, id) values (?, ?)
+ Update 0: update a set name=? where id=?
+ Delete 0: delete from a where id=?
+ Identity insert: insert into a (name) values (?)
+Static select for entity com.zehao.entity.Users [NONE]: select users0_.id as id1_0_, users0_.name as name1_0_, users0_.password as password1_0_, users0_.address as address1_0_ from users users0_ where users0_.id=?
+Static select for entity com.zehao.entity.Users [READ]: select users0_.id as id1_0_, users0_.name as name1_0_, users0_.password as password1_0_, users0_.address as address1_0_ from users users0_ where users0_.id=?
+Static select for entity com.zehao.entity.Users [UPGRADE]: select users0_.id as id1_0_, users0_.name as name1_0_, users0_.password as password1_0_, users0_.address as address1_0_ from users users0_ where users0_.id=? for update
+Static select for entity com.zehao.entity.Users [UPGRADE_NOWAIT]: select users0_.id as id1_0_, users0_.name as name1_0_, users0_.password as password1_0_, users0_.address as address1_0_ from users users0_ where users0_.id=? for update
+Static select for entity com.zehao.entity.Users [FORCE]: select users0_.id as id1_0_, users0_.name as name1_0_, users0_.password as password1_0_, users0_.address as address1_0_ from users users0_ where users0_.id=? for update
+Static select for entity com.zehao.entity.Users [PESSIMISTIC_READ]: select users0_.id as id1_0_, users0_.name as name1_0_, users0_.password as password1_0_, users0_.address as address1_0_ from users users0_ where users0_.id=? lock in share mode
+Static select for entity com.zehao.entity.Users [PESSIMISTIC_WRITE]: select users0_.id as id1_0_, users0_.name as name1_0_, users0_.password as password1_0_, users0_.address as address1_0_ from users users0_ where users0_.id=? for update
+Static select for entity com.zehao.entity.Users [PESSIMISTIC_FORCE_INCREMENT]: select users0_.id as id1_0_, users0_.name as name1_0_, users0_.password as password1_0_, users0_.address as address1_0_ from users users0_ where users0_.id=? for update
+Static select for entity com.zehao.entity.Users [OPTIMISTIC]: select users0_.id as id1_0_, users0_.name as name1_0_, users0_.password as password1_0_, users0_.address as address1_0_ from users users0_ where users0_.id=?
+Static select for entity com.zehao.entity.Users [OPTIMISTIC_FORCE_INCREMENT]: select users0_.id as id1_0_, users0_.name as name1_0_, users0_.password as password1_0_, users0_.address as address1_0_ from users users0_ where users0_.id=?
+Static select for action ACTION_MERGE on entity com.zehao.entity.Users: select users0_.id as id1_0_, users0_.name as name1_0_, users0_.password as password1_0_, users0_.address as address1_0_ from users users0_ where users0_.id=?
+Static select for action ACTION_REFRESH on entity com.zehao.entity.Users: select users0_.id as id1_0_, users0_.name as name1_0_, users0_.password as password1_0_, users0_.address as address1_0_ from users users0_ where users0_.id=?
+Static select for entity com.zehao.entity.A [NONE]: select a0_.id as id0_0_, a0_.name as name0_0_ from a a0_ where a0_.id=?
+Static select for entity com.zehao.entity.A [READ]: select a0_.id as id0_0_, a0_.name as name0_0_ from a a0_ where a0_.id=?
+Static select for entity com.zehao.entity.A [UPGRADE]: select a0_.id as id0_0_, a0_.name as name0_0_ from a a0_ where a0_.id=? for update
+Static select for entity com.zehao.entity.A [UPGRADE_NOWAIT]: select a0_.id as id0_0_, a0_.name as name0_0_ from a a0_ where a0_.id=? for update
+Static select for entity com.zehao.entity.A [FORCE]: select a0_.id as id0_0_, a0_.name as name0_0_ from a a0_ where a0_.id=? for update
+Static select for entity com.zehao.entity.A [PESSIMISTIC_READ]: select a0_.id as id0_0_, a0_.name as name0_0_ from a a0_ where a0_.id=? lock in share mode
+Static select for entity com.zehao.entity.A [PESSIMISTIC_WRITE]: select a0_.id as id0_0_, a0_.name as name0_0_ from a a0_ where a0_.id=? for update
+Static select for entity com.zehao.entity.A [PESSIMISTIC_FORCE_INCREMENT]: select a0_.id as id0_0_, a0_.name as name0_0_ from a a0_ where a0_.id=? for update
+Static select for entity com.zehao.entity.A [OPTIMISTIC]: select a0_.id as id0_0_, a0_.name as name0_0_ from a a0_ where a0_.id=?
+Static select for entity com.zehao.entity.A [OPTIMISTIC_FORCE_INCREMENT]: select a0_.id as id0_0_, a0_.name as name0_0_ from a a0_ where a0_.id=?
+Static select for action ACTION_MERGE on entity com.zehao.entity.A: select a0_.id as id0_0_, a0_.name as name0_0_ from a a0_ where a0_.id=?
+Static select for action ACTION_REFRESH on entity com.zehao.entity.A: select a0_.id as id0_0_, a0_.name as name0_0_ from a a0_ where a0_.id=?
+Initializing SessionFactoryRegistry : org.hibernate.internal.SessionFactoryRegistry@15cd81d1
+Registering SessionFactory: d2214d1e-d828-485f-8f22-30a5636101ad (<unnamed>)
+Not binding SessionFactory to JNDI, no JNDI name configured
+Instantiated session factory
+HHH000228: Running hbm2ddl schema update
+HHH000102: Fetching database metadata
+HHH000396: Updating schema
+Processing hbm.xml files
+Process annotated classes
+Processing fk mappings (*ToOne and JoinedSubclass)
+Processing extends queue
+Processing extends queue
+Processing collection mappings
+Processing native query and ResultSetMapping mappings
+Processing association property references
+Processing foreign key constraints
+HHH000261: Table found: test.a
+HHH000037: Columns: [id, name]
+HHH000108: Foreign keys: []
+HHH000126: Indexes: [primary]
+HHH000261: Table found: test.users
+HHH000037: Columns: [id, address, name, password]
+HHH000108: Foreign keys: []
+HHH000126: Indexes: [primary]
+Setting dialect [org.hibernate.dialect.MySQL5Dialect]
+Setting dialect [org.hibernate.dialect.MySQL5Dialect]
+HHH000232: Schema update complete
+Checking 0 named HQL queries
+Checking 0 named SQL queries
+Statistics initialized [enabled=false]
+Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#0'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#1'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#2'
+Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#0'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#1'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#2'
+Finished creating instance of bean 'sessionFactory'
+Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#0'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#1'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#2'
+Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#0'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#1'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#2'
+Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#0'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#1'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#2'
+Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#0'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#1'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#2'
+Finished creating instance of bean 'UserDao'
+Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#0'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#1'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#2'
+Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#0'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#1'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#2'
+Adding transactional method 'add' with attribute: PROPAGATION_REQUIRED,ISOLATION_DEFAULT; 'txManager'
+Creating shared instance of singleton bean 'org.springframework.transaction.interceptor.TransactionInterceptor#0'
+Creating instance of bean 'org.springframework.transaction.interceptor.TransactionInterceptor#0'
+Eagerly caching bean 'org.springframework.transaction.interceptor.TransactionInterceptor#0' to allow for resolving potential circular references
+Returning cached instance of singleton bean 'org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0'
+Invoking afterPropertiesSet() on bean with name 'org.springframework.transaction.interceptor.TransactionInterceptor#0'
+Finished creating instance of bean 'org.springframework.transaction.interceptor.TransactionInterceptor#0'
+Creating implicit proxy for bean 'UserService' with 0 common interceptors and 5 specific interceptors
+Creating CGLIB2 proxy: target source is SingletonTargetSource for target object [com.zehao.service.impl.UserServiceImpl@4ac87b2c]
+Must expose proxy on advised method: public void com.zehao.service.impl.UserServiceImpl.setUserDao(com.zehao.dao.IUserDao)
+Must expose proxy on advised method: public java.io.Serializable com.zehao.service.impl.BaseServiceImpl.add(java.lang.Object)
+Adding transactional method 'save' with attribute: PROPAGATION_REQUIRED,ISOLATION_DEFAULT; 'txManager'
+Must expose proxy on advised method: public void com.zehao.service.impl.BaseServiceImpl.save(java.lang.Object)
+Adding transactional method 'delete' with attribute: PROPAGATION_REQUIRED,ISOLATION_DEFAULT; 'txManager'
+Must expose proxy on advised method: public void com.zehao.service.impl.BaseServiceImpl.delete(java.io.Serializable)
+Adding transactional method 'update' with attribute: PROPAGATION_REQUIRED,ISOLATION_DEFAULT; 'txManager'
+Must expose proxy on advised method: public void com.zehao.service.impl.BaseServiceImpl.update(java.lang.Object)
+Must expose proxy on advised method: public java.lang.Object com.zehao.service.impl.BaseServiceImpl.findById(java.io.Serializable)
+Must expose proxy on advised method: public java.util.List com.zehao.service.impl.BaseServiceImpl.findByHQL(java.lang.String,java.lang.Object[])
+Must expose proxy on advised method: public void com.zehao.service.impl.BaseServiceImpl.setDao(com.zehao.dao.IBaseDao)
+Found finalize() method - using NO_OVERRIDE
+Found 'equals' method: public boolean java.lang.Object.equals(java.lang.Object)
+Must expose proxy on advised method: public java.lang.String java.lang.Object.toString()
+Found 'hashCode' method: public native int java.lang.Object.hashCode()
+Must expose proxy on advised method: protected native java.lang.Object java.lang.Object.clone() throws java.lang.CloneNotSupportedException
+Method is declared on Advised interface: public abstract int org.springframework.aop.framework.Advised.indexOf(org.springframework.aop.Advisor)
+Method is declared on Advised interface: public abstract int org.springframework.aop.framework.Advised.indexOf(org.aopalliance.aop.Advice)
+Method is declared on Advised interface: public abstract boolean org.springframework.aop.framework.Advised.isFrozen()
+Method is declared on Advised interface: public abstract void org.springframework.aop.framework.Advised.addAdvice(org.aopalliance.aop.Advice) throws org.springframework.aop.framework.AopConfigException
+Method is declared on Advised interface: public abstract void org.springframework.aop.framework.Advised.addAdvice(int,org.aopalliance.aop.Advice) throws org.springframework.aop.framework.AopConfigException
+Method is declared on Advised interface: public abstract boolean org.springframework.aop.framework.Advised.isPreFiltered()
+Method is declared on Advised interface: public abstract org.springframework.aop.Advisor[] org.springframework.aop.framework.Advised.getAdvisors()
+Method is declared on Advised interface: public abstract boolean org.springframework.aop.framework.Advised.removeAdvisor(org.springframework.aop.Advisor)
+Method is declared on Advised interface: public abstract void org.springframework.aop.framework.Advised.removeAdvisor(int) throws org.springframework.aop.framework.AopConfigException
+Method is declared on Advised interface: public abstract boolean org.springframework.aop.framework.Advised.removeAdvice(org.aopalliance.aop.Advice)
+Method is declared on Advised interface: public abstract void org.springframework.aop.framework.Advised.addAdvisor(org.springframework.aop.Advisor) throws org.springframework.aop.framework.AopConfigException
+Method is declared on Advised interface: public abstract void org.springframework.aop.framework.Advised.addAdvisor(int,org.springframework.aop.Advisor) throws org.springframework.aop.framework.AopConfigException
+Method is declared on Advised interface: public abstract java.lang.Class[] org.springframework.aop.framework.Advised.getProxiedInterfaces()
+Method is declared on Advised interface: public abstract boolean org.springframework.aop.framework.Advised.isInterfaceProxied(java.lang.Class)
+Method is declared on Advised interface: public abstract boolean org.springframework.aop.framework.Advised.replaceAdvisor(org.springframework.aop.Advisor,org.springframework.aop.Advisor) throws org.springframework.aop.framework.AopConfigException
+Method is declared on Advised interface: public abstract java.lang.String org.springframework.aop.framework.Advised.toProxyConfigString()
+Method is declared on Advised interface: public abstract boolean org.springframework.aop.framework.Advised.isExposeProxy()
+Method is declared on Advised interface: public abstract org.springframework.aop.TargetSource org.springframework.aop.framework.Advised.getTargetSource()
+Method is declared on Advised interface: public abstract void org.springframework.aop.framework.Advised.setTargetSource(org.springframework.aop.TargetSource)
+Method is declared on Advised interface: public abstract void org.springframework.aop.framework.Advised.setPreFiltered(boolean)
+Method is declared on Advised interface: public abstract boolean org.springframework.aop.framework.Advised.isProxyTargetClass()
+Method is declared on Advised interface: public abstract void org.springframework.aop.framework.Advised.setExposeProxy(boolean)
+Method is declared on Advised interface: public abstract java.lang.Class org.springframework.aop.TargetClassAware.getTargetClass()
+Finished creating instance of bean 'UserService'
+Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#0'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#1'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#2'
+Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#0'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#1'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#2'
+Finished creating instance of bean 'loginController'
+Creating shared instance of singleton bean 'addUserAction'
+Creating instance of bean 'addUserAction'
+Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#0'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#1'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#2'
+Eagerly caching bean 'addUserAction' to allow for resolving potential circular references
+Returning cached instance of singleton bean 'UserService'
+Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#0'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#1'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#2'
+Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#0'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#1'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#2'
+Finished creating instance of bean 'addUserAction'
+Returning cached instance of singleton bean 'UserDao'
+Returning cached instance of singleton bean 'UserService'
+Creating shared instance of singleton bean 'log'
+Creating instance of bean 'log'
+Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#0'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#1'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#2'
+Eagerly caching bean 'log' to allow for resolving potential circular references
+Finished creating instance of bean 'log'
+Returning cached instance of singleton bean 'dataSource'
+Returning cached instance of singleton bean 'sessionFactory'
+Creating shared instance of singleton bean 'txManager'
+Creating instance of bean 'txManager'
+Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#0'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#1'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#2'
+Eagerly caching bean 'txManager' to allow for resolving potential circular references
+Returning cached instance of singleton bean 'sessionFactory'
+Invoking afterPropertiesSet() on bean with name 'txManager'
+Using DataSource [org.apache.commons.dbcp.BasicDataSource@df5b08] of Hibernate SessionFactory for HibernateTransactionManager
+Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#0'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#1'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#2'
+Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#0'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#1'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#2'
+Finished creating instance of bean 'txManager'
+Returning cached instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator'
+Returning cached instance of singleton bean 'org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0'
+Returning cached instance of singleton bean 'org.springframework.transaction.interceptor.TransactionInterceptor#0'
+Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+Creating shared instance of singleton bean 'txAdvice'
+Creating instance of bean 'txAdvice'
+Eagerly caching bean 'txAdvice' to allow for resolving potential circular references
+Returning cached instance of singleton bean 'txManager'
+Creating instance of bean '(inner bean)#6'
+Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#0'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#1'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#2'
+Adding transactional method [find*] with attribute [PROPAGATION_REQUIRED,ISOLATION_DEFAULT,readOnly]
+Adding transactional method [add*] with attribute [PROPAGATION_REQUIRED,ISOLATION_DEFAULT]
+Adding transactional method [update*] with attribute [PROPAGATION_REQUIRED,ISOLATION_DEFAULT]
+Adding transactional method [save*] with attribute [PROPAGATION_REQUIRED,ISOLATION_DEFAULT]
+Adding transactional method [*] with attribute [PROPAGATION_REQUIRED,ISOLATION_DEFAULT]
+Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#0'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#1'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#2'
+Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#0'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#1'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#2'
+Finished creating instance of bean '(inner bean)#6'
+Invoking afterPropertiesSet() on bean with name 'txAdvice'
+Finished creating instance of bean 'txAdvice'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#0'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#1'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#2'
+Unable to locate LifecycleProcessor with name 'lifecycleProcessor': using default [org.springframework.context.support.DefaultLifecycleProcessor@5f916fce]
+Returning cached instance of singleton bean 'lifecycleProcessor'
+Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+Root WebApplicationContext: initialization completed in 3868 ms
+Loading action configurations from: struts-default.xml
+Creating revision for URL: jar:file:/C:/Users/zehao/.m2/repository/org/apache/struts/struts2-core/2.3.1/struts2-core-2.3.1.jar!/struts-default.xml
+Loaded action configuration from: struts-default.xml
+Parsing configuration file [struts-default.xml]
+Loaded type: name:xwork impl:com.opensymphony.xwork2.ObjectFactory
+Loaded type:com.opensymphony.xwork2.ObjectFactory name:struts impl:org.apache.struts2.impl.StrutsObjectFactory
+Loaded type:com.opensymphony.xwork2.ActionProxyFactory name:xwork impl:com.opensymphony.xwork2.DefaultActionProxyFactory
+Loaded type:com.opensymphony.xwork2.ActionProxyFactory name:struts impl:org.apache.struts2.impl.StrutsActionProxyFactory
+Loaded type:com.opensymphony.xwork2.conversion.ObjectTypeDeterminer name:tiger impl:com.opensymphony.xwork2.conversion.impl.DefaultObjectTypeDeterminer
+Loaded type:com.opensymphony.xwork2.conversion.ObjectTypeDeterminer name:notiger impl:com.opensymphony.xwork2.conversion.impl.DefaultObjectTypeDeterminer
+Loaded type:com.opensymphony.xwork2.conversion.ObjectTypeDeterminer name:struts impl:com.opensymphony.xwork2.conversion.impl.DefaultObjectTypeDeterminer
+Loaded type:com.opensymphony.xwork2.util.PatternMatcher name:struts impl:com.opensymphony.xwork2.util.WildcardHelper
+Loaded type:com.opensymphony.xwork2.util.PatternMatcher name:namedVariable impl:com.opensymphony.xwork2.util.NamedVariablePatternMatcher
+Loaded type:com.opensymphony.xwork2.util.PatternMatcher name:regex impl:org.apache.struts2.util.RegexPatternMatcher
+Loaded type:org.apache.struts2.dispatcher.mapper.ActionMapper name:struts impl:org.apache.struts2.dispatcher.mapper.DefaultActionMapper
+Loaded type:org.apache.struts2.dispatcher.mapper.ActionMapper name:composite impl:org.apache.struts2.dispatcher.mapper.CompositeActionMapper
+Loaded type:org.apache.struts2.dispatcher.mapper.ActionMapper name:restful impl:org.apache.struts2.dispatcher.mapper.RestfulActionMapper
+Loaded type:org.apache.struts2.dispatcher.mapper.ActionMapper name:restful2 impl:org.apache.struts2.dispatcher.mapper.Restful2ActionMapper
+Loaded type:org.apache.struts2.dispatcher.multipart.MultiPartRequest name:struts impl:org.apache.struts2.dispatcher.multipart.JakartaMultiPartRequest
+Loaded type:org.apache.struts2.dispatcher.multipart.MultiPartRequest name:jakarta impl:org.apache.struts2.dispatcher.multipart.JakartaMultiPartRequest
+Loaded type:org.apache.struts2.views.TagLibrary name:s impl:org.apache.struts2.views.DefaultTagLibrary
+Loaded type: name:struts impl:org.apache.struts2.views.freemarker.FreemarkerManager
+Unable to load optional class: java.lang.NoClassDefFoundError: org/apache/velocity/tools/view/ToolboxManager
+Loaded type: name:default impl:org.apache.struts2.components.template.TemplateEngineManager
+Loaded type:org.apache.struts2.components.template.TemplateEngine name:ftl impl:org.apache.struts2.components.template.FreemarkerTemplateEngine
+Loaded type:org.apache.struts2.components.template.TemplateEngine name:vm impl:org.apache.struts2.components.template.VelocityTemplateEngine
+Loaded type:org.apache.struts2.components.template.TemplateEngine name:jsp impl:org.apache.struts2.components.template.JspTemplateEngine
+Loaded type:com.opensymphony.xwork2.conversion.impl.XWorkConverter name:struts impl:com.opensymphony.xwork2.conversion.impl.XWorkConverter
+Loaded type:com.opensymphony.xwork2.conversion.impl.XWorkConverter name:xwork1 impl:com.opensymphony.xwork2.conversion.impl.XWorkConverter
+Loaded type: name:default impl:com.opensymphony.xwork2.conversion.impl.XWorkBasicConverter
+Loaded type:com.opensymphony.xwork2.TextProvider name:xwork1 impl:com.opensymphony.xwork2.TextProviderSupport
+Loaded type:com.opensymphony.xwork2.TextProvider name:struts impl:com.opensymphony.xwork2.TextProviderSupport
+Loaded type:org.apache.struts2.components.UrlRenderer name:struts impl:org.apache.struts2.components.ServletUrlRenderer
+Loaded type:com.opensymphony.xwork2.util.ValueStackFactory name:struts impl:com.opensymphony.xwork2.ognl.OgnlValueStackFactory
+Loaded type:com.opensymphony.xwork2.util.reflection.ReflectionProvider name:struts impl:com.opensymphony.xwork2.ognl.OgnlReflectionProvider
+Loaded type:com.opensymphony.xwork2.util.reflection.ReflectionContextFactory name:struts impl:com.opensymphony.xwork2.ognl.OgnlReflectionContextFactory
+Loaded type:com.opensymphony.xwork2.TextProvider name:system impl:com.opensymphony.xwork2.DefaultTextProvider
+Loaded type:com.opensymphony.xwork2.conversion.NullHandler name:java.lang.Object impl:com.opensymphony.xwork2.conversion.impl.InstantiatingNullHandler
+Loaded type:com.opensymphony.xwork2.validator.ActionValidatorManager name:struts impl:com.opensymphony.xwork2.validator.AnnotationActionValidatorManager
+Loaded type:com.opensymphony.xwork2.validator.ActionValidatorManager name:no-annotations impl:com.opensymphony.xwork2.validator.DefaultActionValidatorManager
+Loaded type:com.opensymphony.xwork2.validator.ValidatorFactory name:default impl:com.opensymphony.xwork2.validator.DefaultValidatorFactory
+Loaded type:com.opensymphony.xwork2.validator.ValidatorFileParser name:default impl:com.opensymphony.xwork2.validator.DefaultValidatorFileParser
+Loaded type: name:default impl:com.opensymphony.xwork2.ognl.OgnlUtil
+Loaded type:ognl.PropertyAccessor name:com.opensymphony.xwork2.util.CompoundRoot impl:com.opensymphony.xwork2.ognl.accessor.CompoundRootAccessor
+Loaded type:ognl.PropertyAccessor name:java.lang.Object impl:com.opensymphony.xwork2.ognl.accessor.ObjectAccessor
+Loaded type:ognl.PropertyAccessor name:java.util.Iterator impl:com.opensymphony.xwork2.ognl.accessor.XWorkIteratorPropertyAccessor
+Loaded type:ognl.PropertyAccessor name:java.util.Enumeration impl:com.opensymphony.xwork2.ognl.accessor.XWorkEnumerationAccessor
+Loaded type:ognl.PropertyAccessor name:java.util.List impl:com.opensymphony.xwork2.ognl.accessor.XWorkListPropertyAccessor
+Loaded type:ognl.PropertyAccessor name:java.util.Set impl:com.opensymphony.xwork2.ognl.accessor.XWorkCollectionPropertyAccessor
+Loaded type:ognl.PropertyAccessor name:java.util.Map impl:com.opensymphony.xwork2.ognl.accessor.XWorkMapPropertyAccessor
+Loaded type:ognl.PropertyAccessor name:java.util.Collection impl:com.opensymphony.xwork2.ognl.accessor.XWorkCollectionPropertyAccessor
+Loaded type:ognl.PropertyAccessor name:com.opensymphony.xwork2.ognl.ObjectProxy impl:com.opensymphony.xwork2.ognl.accessor.ObjectProxyPropertyAccessor
+Loaded type:ognl.MethodAccessor name:java.lang.Object impl:com.opensymphony.xwork2.ognl.accessor.XWorkMethodAccessor
+Loaded type:ognl.MethodAccessor name:com.opensymphony.xwork2.util.CompoundRoot impl:com.opensymphony.xwork2.ognl.accessor.CompoundRootAccessor
+Loaded type: name:default impl:org.apache.struts2.views.jsp.ui.OgnlTool
+Loaded type:org.apache.struts2.dispatcher.StaticContentLoader name:struts impl:org.apache.struts2.dispatcher.DefaultStaticContentLoader
+Loaded type:com.opensymphony.xwork2.UnknownHandlerManager name:struts impl:com.opensymphony.xwork2.DefaultUnknownHandlerManager
+Loaded type:ognl.PropertyAccessor name:java.util.ArrayList impl:com.opensymphony.xwork2.ognl.accessor.XWorkListPropertyAccessor
+Loaded type:ognl.PropertyAccessor name:java.util.HashSet impl:com.opensymphony.xwork2.ognl.accessor.XWorkCollectionPropertyAccessor
+Loaded type:ognl.PropertyAccessor name:java.util.HashMap impl:com.opensymphony.xwork2.ognl.accessor.XWorkMapPropertyAccessor
+Loading action configurations from: struts-plugin.xml
+Creating revision for URL: jar:file:/C:/Users/zehao/.m2/repository/org/apache/struts/struts2-spring-plugin/2.3.1/struts2-spring-plugin-2.3.1.jar!/struts-plugin.xml
+Loaded action configuration from: struts-plugin.xml
+Parsing configuration file [struts-plugin.xml]
+Loaded type:com.opensymphony.xwork2.ObjectFactory name:spring impl:org.apache.struts2.spring.StrutsSpringObjectFactory
+Loading action configurations from: struts.xml
+Creating revision for URL: file:/C:/work/train/maven/maven_ssh/target/classes/struts.xml
+Loaded action configuration from: struts.xml
+Parsing configuration file [struts.xml]
+Choosing bean (spring) for class com.opensymphony.xwork2.ObjectFactory
+Choosing bean (struts) for class com.opensymphony.xwork2.conversion.impl.XWorkConverter
+Choosing bean (struts) for interface com.opensymphony.xwork2.TextProvider
+Choosing bean (struts) for interface com.opensymphony.xwork2.ActionProxyFactory
+Choosing bean (struts) for interface com.opensymphony.xwork2.conversion.ObjectTypeDeterminer
+Choosing bean (struts) for interface org.apache.struts2.dispatcher.mapper.ActionMapper
+Choosing bean (jakarta) for interface org.apache.struts2.dispatcher.multipart.MultiPartRequest
+Choosing bean (struts) for class org.apache.struts2.views.freemarker.FreemarkerManager
+Choosing bean (struts) for class org.apache.struts2.views.velocity.VelocityManager to be loaded from the ObjectFactory
+Choosing bean (struts) for interface org.apache.struts2.components.UrlRenderer
+Choosing bean (struts) for interface com.opensymphony.xwork2.validator.ActionValidatorManager
+Choosing bean (struts) for interface com.opensymphony.xwork2.util.ValueStackFactory
+Choosing bean (struts) for interface com.opensymphony.xwork2.util.reflection.ReflectionProvider
+Choosing bean (struts) for interface com.opensymphony.xwork2.util.reflection.ReflectionContextFactory
+Choosing bean (struts) for interface com.opensymphony.xwork2.util.PatternMatcher
+Choosing bean (struts) for interface org.apache.struts2.dispatcher.StaticContentLoader
+Choosing bean (struts) for interface com.opensymphony.xwork2.UnknownHandlerManager
+Added default resource bundle 'org/apache/struts2/struts-messages' to default resource bundles = [org/apache/struts2/struts-messages, com/opensymphony/xwork2/xwork-messages]
+Initializing Struts-Spring integration...
+Setting autowire strategy to name
+... initialized Struts-Spring integration successfully
+Loaded [BUILDER] {PackageConfig Name:struts-default namespace: parents:[]}
+Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#0'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#1'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#2'
+Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#0'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#1'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#2'
+Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#0'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#1'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#2'
+Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#0'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#1'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#2'
+Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#0'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#1'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#2'
+Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#0'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#1'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#2'
+Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#0'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#1'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#2'
+Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#0'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#1'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#2'
+Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#0'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#1'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#2'
+Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#0'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#1'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#2'
+Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#0'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#1'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#2'
+Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#0'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#1'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#2'
+Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#0'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#1'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#2'
+Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#0'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#1'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#2'
+Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#0'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#1'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#2'
+Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#0'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#1'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#2'
+Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#0'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#1'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#2'
+Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#0'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#1'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#2'
+Loading validator definitions.
+Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#0'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#1'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#2'
+Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#0'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#1'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#2'
+Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#0'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#1'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#2'
+Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#0'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#1'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#2'
+Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#0'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#1'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#2'
+Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#0'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#1'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#2'
+Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#0'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#1'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#2'
+Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#0'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#1'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#2'
+Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#0'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#1'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#2'
+Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#0'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#1'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#2'
+Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#0'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#1'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#2'
+Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#0'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#1'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#2'
+Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#0'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#1'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#2'
+Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#0'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#1'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#2'
+Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#0'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#1'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#2'
+Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#0'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#1'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#2'
+Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#0'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#1'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#2'
+Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#0'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#1'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#2'
+Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#0'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#1'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#2'
+Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#0'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#1'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#2'
+Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#0'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#1'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#2'
+Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#0'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#1'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#2'
+Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#0'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#1'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#2'
+Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#0'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#1'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#2'
+Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#0'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#1'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#2'
+Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#0'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#1'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#2'
+Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#0'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#1'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#2'
+Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#0'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#1'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#2'
+Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#0'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#1'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#2'
+Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#0'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#1'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#2'
+Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#0'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#1'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#2'
+Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#0'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#1'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#2'
+Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#0'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#1'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#2'
+Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#0'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#1'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#2'
+Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#0'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#1'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#2'
+Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#0'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#1'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#2'
+Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#0'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#1'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#2'
+Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#0'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#1'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#2'
+Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#0'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#1'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#2'
+Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#0'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#1'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#2'
+new I18nInterceptor()
+Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#0'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#1'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#2'
+Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#0'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#1'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#2'
+Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#0'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#1'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#2'
+Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#0'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#1'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#2'
+new I18nInterceptor()
+Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#0'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#1'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#2'
+Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#0'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#1'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#2'
+new I18nInterceptor()
+Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#0'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#1'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#2'
+Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#0'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#1'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#2'
+Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#0'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#1'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#2'
+Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#0'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#1'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#2'
+Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#0'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#1'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#2'
+Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#0'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#1'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#2'
+Loaded [BUILDER] {PackageConfig Name:spring-default namespace: parents:[]}
+Loaded [BUILDER] {PackageConfig Name:zehao namespace:/ parents:[{PackageConfig Name:struts-default namespace: parents:[]}]}
+Loaded //user in 'zehao' package:{ActionConfig user (loginController.login()) - action - file:/C:/work/train/maven/maven_ssh/target/classes/struts.xml:7:62}
+Loaded //adduser in 'zehao' package:{ActionConfig adduser (addUserAction.addUsers()) - action - file:/C:/work/train/maven/maven_ssh/target/classes/struts.xml:11:66}
+Loaded [BUILDER] {PackageConfig Name:error namespace: parents:[{PackageConfig Name:struts-default namespace: parents:[]}]}
+Loaded notFound in 'error' package:{ActionConfig notFound () - action - file:/C:/work/train/maven/maven_ssh/target/classes/struts.xml:19:27}
+Entering nullPropertyValue [target=[com.opensymphony.xwork2.DefaultTextProvider@4b1c5e8], property=struts]
+Entering nullPropertyValue [target=[com.opensymphony.xwork2.DefaultTextProvider@4b1c5e8], property=struts]
+Entering nullPropertyValue [target=[com.opensymphony.xwork2.DefaultTextProvider@4b1c5e8], property=org]
+Entering nullPropertyValue [target=[com.opensymphony.xwork2.DefaultTextProvider@4b1c5e8], property=org]
+Entering nullPropertyValue [target=[com.opensymphony.xwork2.DefaultTextProvider@4b1c5e8], property=struts]
+Entering nullPropertyValue [target=[com.opensymphony.xwork2.DefaultTextProvider@4b1c5e8], property=struts]
+Creating an DefaultActionProxy for namespace / and action name adduser
+Returning cached instance of singleton bean 'addUserAction'
+intercept '//adduser' { 
+applied invocation context locale=zh_CN
+before Locale=zh_CN
+Entering nullPropertyValue [target=[com.zehao.action.UserAction@113b8acc, com.opensymphony.xwork2.DefaultTextProvider@4b1c5e8], property=struts]
+Bypassing //adduser
+Setting static parameters {}
+Setting params NONE
+Setting params users.address => [ dddddddddddd ] users.name => [ LINDAddddddddddd ] users.password => [ asdddddddddd ] 
+Entering nullPropertyValue [target=[com.zehao.action.UserAction@113b8acc, com.opensymphony.xwork2.DefaultTextProvider@4b1c5e8], property=users]
+Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#0'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#1'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#2'
+Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#0'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#1'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#2'
+Property: address
+Class: com.zehao.entity.Users
+converter is null for property address. Mapping size: 0
+field-level type converter for property [address] = none found
+Property: users.address
+Class: com.zehao.action.UserAction
+converter is null for property users.address. Mapping size: 0
+global-level type converter for property [address] = none found
+falling back to default type converter [com.opensymphony.xwork2.conversion.impl.XWorkBasicConverter@1144d3e7]
+Property: name
+Class: com.zehao.entity.Users
+field-level type converter for property [name] = none found
+Property: users.name
+Class: com.zehao.action.UserAction
+global-level type converter for property [name] = none found
+falling back to default type converter [com.opensymphony.xwork2.conversion.impl.XWorkBasicConverter@1144d3e7]
+Property: password
+Class: com.zehao.entity.Users
+field-level type converter for property [password] = none found
+Property: users.password
+Class: com.zehao.action.UserAction
+global-level type converter for property [password] = none found
+falling back to default type converter [com.opensymphony.xwork2.conversion.impl.XWorkBasicConverter@1144d3e7]
+Validating //adduser with method addUsers.
+Invoking validate() on action com.zehao.action.UserAction@113b8acc
+cannot find method [validateAddUsers] in action [com.zehao.action.UserAction@113b8acc]
+cannot find method [validateDoAddUsers] in action [com.zehao.action.UserAction@113b8acc]
+Executing action method = addUsers
+Returning cached instance of singleton bean 'txManager'
+Creating new transaction with name [com.zehao.service.impl.BaseServiceImpl.add]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT; 'txManager'
+Opened new Session [SessionImpl(PersistenceContext[entityKeys=[],collectionKeys=[]];ActionQueue[insertions=[] updates=[] deletions=[] collectionCreations=[] collectionRemovals=[] collectionUpdates=[] unresolvedInsertDependencies=UnresolvedEntityInsertActions[]])] for Hibernate transaction
+Preparing JDBC Connection of Hibernate Session [SessionImpl(PersistenceContext[entityKeys=[],collectionKeys=[]];ActionQueue[insertions=[] updates=[] deletions=[] collectionCreations=[] collectionRemovals=[] collectionUpdates=[] unresolvedInsertDependencies=UnresolvedEntityInsertActions[]])]
+begin
+Obtaining JDBC connection
+Obtained JDBC connection
+initial autocommit status: true
+disabling autocommit
+Exposing Hibernate transaction as JDBC transaction [org.hibernate.engine.jdbc.internal.proxy.ConnectionProxyHandler@202b80e2[valid=true]]
+Returning cached instance of singleton bean 'log'
+----------doBefore:log Begining method: com.zehao.service.impl.UserServiceImpl.add.start----------
+Returning cached instance of singleton bean 'log'
+Executing identity-insert immediately
+insert into users (name, password, address) values (?, ?, ?)
+Natively generated identity: 32
+Returning cached instance of singleton bean 'log'
+----------doAfter:log Ending method: com.zehao.service.impl.UserServiceImpl.add.end----------
+Initiating transaction commit
+Committing Hibernate transaction on Session [SessionImpl(PersistenceContext[entityKeys=[EntityKey[com.zehao.entity.Users#32]],collectionKeys=[]];ActionQueue[insertions=[] updates=[] deletions=[] collectionCreations=[] collectionRemovals=[] collectionUpdates=[] unresolvedInsertDependencies=UnresolvedEntityInsertActions[]])]
+committing
+Processing flush-time cascades
+Dirty checking collections
+Flushed: 0 insertions, 0 updates, 0 deletions to 1 objects
+Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
+Listing entities:
+com.zehao.entity.Users{id=32, address=dddddddddddd, name=LINDAddddddddddd, password=asdddddddddd}
+committed JDBC Connection
+re-enabling autocommit
+Closing Hibernate Session [SessionImpl(PersistenceContext[entityKeys=[EntityKey[com.zehao.entity.Users#32]],collectionKeys=[]];ActionQueue[insertions=[] updates=[] deletions=[] collectionCreations=[] collectionRemovals=[] collectionUpdates=[] unresolvedInsertDependencies=UnresolvedEntityInsertActions[]])] after transaction
+Releasing JDBC connection
+Released JDBC connection
+HHH000163: Logical connection releasing its physical connection
+HHH000163: Logical connection releasing its physical connection
+HHH000163: Logical connection releasing its physical connection
+HHH000163: Logical connection releasing its physical connection
+Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#0'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#1'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#2'
+Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#0'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#1'
+Returning cached instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#2'
+Forwarding to location /index.jsp
+Entering nullPropertyValue [target=[com.zehao.action.UserAction@113b8acc, com.opensymphony.xwork2.DefaultTextProvider@4b1c5e8], property=struts]
+Entering nullPropertyValue [target=[com.zehao.action.UserAction@113b8acc, com.opensymphony.xwork2.DefaultTextProvider@4b1c5e8], property=org]
+after Locale=zh_CN
+intercept } 
+Closing Root WebApplicationContext: startup date [Thu Aug 27 09:57:24 CST 2015]; root of context hierarchy
+Returning cached instance of singleton bean 'lifecycleProcessor'
+Destroying singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@7cf4e6ac: defining beans [loginController,addUserAction,UserDao,UserService,log,dataSource,sessionFactory,txManager,org.springframework.aop.config.internalAutoProxyCreator,org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0,org.springframework.transaction.interceptor.TransactionInterceptor#0,org.springframework.transaction.config.internalTransactionAdvisor,txAdvice,org.springframework.aop.aspectj.AspectJPointcutAdvisor#0,org.springframework.aop.aspectj.AspectJPointcutAdvisor#1,org.springframework.aop.aspectj.AspectJPointcutAdvisor#2,logService]; root of factory hierarchy
+Retrieved dependent beans for bean 'sessionFactory': [UserDao, txManager]
+Retrieved dependent beans for bean 'UserDao': [UserService]
+Retrieved dependent beans for bean 'UserService': [loginController, addUserAction]
+Retrieved dependent beans for bean 'txManager': [txAdvice]
+Retrieved dependent beans for bean '(inner bean)#6': [txAdvice]
+Invoking destroy() on bean with name 'sessionFactory'
+HHH000031: Closing
